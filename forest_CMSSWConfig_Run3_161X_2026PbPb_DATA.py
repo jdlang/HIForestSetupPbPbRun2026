@@ -5,11 +5,11 @@
 # SW: CMSSW_16_1_1+, forest_CMSSW_16_1_X
 
 import FWCore.ParameterSet.Config as cms
-from Configuration.Eras.Era_Run3_2026_cff import Run3_2026
-process = cms.Process('HiForest', Run3_2026)
+from Configuration.Eras.Era_Run3_pp_on_PbPb_2026_cff import Run3_pp_on_PbPb_2026
+process = cms.Process('HiForest', Run3_pp_on_PbPb_2026)
 
 HIFOREST_VERSION = "161X"
-GLOBAL_TAG = "161X_dataRun3_Express_v1"
+GLOBAL_TAG = "161X_dataRun3_Prompt_v1"
 INPUT_TEST_FILE = ""
 INPUT_MAX_EVENTS    = 200
 OUTPUT_FILE_NAME    = "HiForest_2026PbPb.root"
